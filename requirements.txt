@@ -1,5 +1,5 @@
 # python
-python==3.9.13
+python==3.9.16
 
 # rasa
 rasa==3.5.6

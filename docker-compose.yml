@@ -2,7 +2,7 @@ version: '3.5.6'
 services:
 
   duckling-server:
-    image: rasa/rasa
+    image: rasa/duckling:latest
     ports:
     - 8000:8000
     networks:
@@ -24,7 +24,7 @@ services:
     - all
 
   rasa-actions-server:
-    image: rasa-bot:latest
+    image: rasa/rasa
     working_dir: /app
     build: "./"
     restart: always

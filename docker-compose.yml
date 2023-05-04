@@ -2,7 +2,7 @@ version: '3.5.6'
 services:
 
   duckling-server:
-    image: rasa/duckling:latest
+    image: rasa/rasa
     ports:
     - 8000:8000
     networks:

@@ -13,7 +13,7 @@ WORKDIR /app
 
 # upgrade pip version
 RUN pip install --no-cache-dir --upgrade pip
-
+RUN pip install pandas
 RUN pip install rasa==3.5.6
 
 ADD config.yml config.yml

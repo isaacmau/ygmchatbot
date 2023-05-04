@@ -1,0 +1,173 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: chitchat/ask_DPM
+  examples: |
+    - Can you tell me about the organization known as Derek Prince Ministries?
+    - I'm interested in learning more about Derek Prince Ministries. What can you tell me?
+    - What is the purpose or mission of Derek Prince Ministries?
+    - What role does DPM ministry play?
+    - How does Derek Prince Ministries impact the communities it serves?
+  
+- intent: chitchat/ask_DPM_contact
+  examples: |
+    - What are the available channels for reaching out to Derek Prince Ministries?
+    - How can I get in touch with someone from Derek Prince Ministries?
+    - Are there any specific phone numbers or email addresses that I can use to contact Derek Prince Ministries?
+    - Is there a contact form or other online resource that I can use to connect with Derek Prince Ministries?
+    - What is the best way to reach out to Derek Prince Ministries if I have questions or concerns?
+    - Can you provide me with information on how to schedule a meeting or appointment with someone from Derek Prince Ministries?
+    - Does Derek Prince Ministries have a mailing address or physical location that I can visit to speak with someone in person?
+    - Are there any social media platforms or online forums where I can connect with members of Derek Prince Ministries?
+    - How quickly can I expect to receive a response if I contact Derek Prince Ministries?
+    - Is there a customer service or support team that I can contact if I need assistance from Derek Prince Ministries?
+
+- intent: chitchat/ask_Blessing
+  examples: |
+    - What is the origin of blessings?
+    - Where do blessings come from?
+    - What is the root of blessings?
+    - What is the cause of blessings?
+    - What is the foundation of blessings?
+    - What is the beginning of blessings?
+    - Can you tell me where God's blessings come from?
+    - What is the source of blessings from God?
+    - From whom does God's blessings originate?
+
+- intent: chitchat/ask_Purchase
+  examples: |
+    - Where can I purchase books written by Derek Prince?
+    - What are the ways to buy books authored by Derek Prince?
+    - Can you recommend a good place to buy Derek Prince's books?
+    - Is it possible to find Derek Prince's books for sale online or in local bookstores?
+    - I am interested in purchasing Derek Prince's books, could you please suggest where I could find them?
+    - I want to buy Derek Prince's books.
+    - How can I buy a Derek Prince book?
+
+- intent: chitchat/ask_DPM_involved
+  examples: |
+    - How can I get involved with Derek Prince Ministries?
+
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+    - I want to drink wine.
+    - ..
+    - What is my purpose in life?
+    - How can I become a millionaire?
+    - What is the meaning of my dream last night?
+    - Can you tell me what career I should pursue?
+    - How can I find true love?
+    - What is the best way for me to lose weight?
+    - How do I cope with my anxiety?
+    - What is my future going to look like?
+    - How can I improve my memory?
+    - Can you help me make an important life decision?
+    - ...
+    - Can you give me legal advice on my divorce?
+    - What is the best way to invest in the stock market?
+    - Can you help me fix my car engine?
+    - How do I cook a perfect steak?
+    - Can you recommend a good hairstylist in my area?
+    - What is the best exercise routine for building muscle?
+    - Can you design a logo for my business?
+    - How can I become a professional athlete?
+    - What is the best way to learn a new language quickly?
+    - Can you help me write a novel?
+    - I am sleeping.
+    - What is the weather update ?
+    - ..
+    - balablabalabalabalala
+    - hmm
+    - abcdkfjeififeif

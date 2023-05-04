@@ -1,0 +1,12 @@
+{
+  "utter_chitchat/ask_DPM": [
+    {
+      "text": "Derek Prince Ministries is a non-profit organization that focuses on Bible teaching and discipleship. The organization is dedicated to making the Bible accessible to people around the world through various resources and materials."
+    }
+  ],
+  "utter_chitchat/ask_DPM_contact": [
+    {
+      "text": "You can contact Derek Prince Ministries through various channels, including phone, email, and social media. The organization's website also has a contact form where you can send your queries. The organization's website is www.derekprince.org."
+    }
+  ]
+}

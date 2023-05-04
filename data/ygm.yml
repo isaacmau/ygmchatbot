@@ -1,0 +1,255 @@
+version: "3.1"
+nlu: 
+- intent: question
+  examples: | 
+    - Where do curses come from?
+    - What are the consequences of a curse?
+    - How can I be set free from a curse?
+    - What are the benefits of being set free from a curse?
+    - What are the consequences of a curse?
+    - How can a curse be broken?
+    - What is the connection between blessings and curses?
+    - How much does the Bible say about blessings and curses?
+    - What was the author's experience with a curse?
+    - What is a curse? 
+    - How can you tell if there is a curse over you or your family? 
+    - How can you be released from a curse? 
+    - What happens when a curse is broken? 
+    - What are the consequences of bringing an abomination into your house?
+    - How did getting rid of the dragons improve the author's personal finances?
+    - What is the principle that connects the improvement in the author's personal finances and the healing of the girl with the broken leg?
+    - What is the difference between a blessing and a curse?
+    - How can you tell if you are living under a curse?
+    - What should you do if you think you are living under a curse?
+    - How can you prevent yourself from being cursed?
+    - What is the purpose of understand blessing and curses?
+    - What are the two significant features common to both blessings and curses?
+    - What is the source of blessings?
+    - What is the cause of curses?
+    - What are the basic requirements for blessings?
+    - What is the opposite of hearing God's voice?
+    - What is the difference between the two lists of blessings and curses?
+    - What does it mean to be the head and not the tail?
+    - What is the conclusion of Moses' list of blessings?
+    - What are the seven parts of God's call to Abraham?
+    - What does God build in for individuals He calls to a special task?
+    - How does God ensure that there will be consequences for those who curse Abraham or his descendants?
+    - How many specific curses are there for disobedience in Deuteronomy 27?
+    - What is the first commandment?
+    - What is the second, wider range of disobedient practices that are not necessarily openly idolatrous or even religious?
+    - What is the driving force behind witchcraft?
+    - What is the attraction of divination in its most common form?
+    - What happens when you trespass into occult areas?
+    - What are the consequences of anti-Semitism?
+    - What are the three main branches of the occult?
+    - Why did God ordain that when Israel came into their promised land, they were to pronounce upon themselves twelve curses if they disobeyed God in certain respects? 
+    - What is the definition of "occult?" 
+    - What is the driving force behind witchcraft?
+    - What is the most common form of fortune telling?
+    - When you trespass into these occult areas, what are you exposing yourself to?
+    - If you feel that you may be under a curse,What Can You Do?
+    - What is one central and decisive factor in the spiritual realm?
+    - Who represents God's authority on earth?
+    - What is the most desired experience after the blessing of God?
+    - What is the second most desired experience after the blessing of God?
+    - What is the most feared experience after the blessing of God?
+    - How have many fathers put a curse on their children?
+    - How have many mothers put a curse on their children?
+    - What is it when a teacher says "You'll never learn?"
+    - What is it when a pastor says "Wherever you go, you will never succeed?"
+    - What is a blessing?
+    - How does the principle of authority still operate?
+    - What do you need to do if you feel you may be under a curse?
+    - How can you bind a curse in Jesus' Name?
+    - How can you loose the blessing of God?
+    - Who are some other authority figures that can pronounce curses?
+    - What is a self-imposed curse?
+    - What are some examples of self-imposed curses?
+    - What is the difference between a soulish and a spiritual person?
+    - What are some of the consequences of people turning away from God?
+    - How can we know if our prayers are motivated by the Holy Spirit?
+    - How can a person's words have a powerful impact, for better or for worse?
+    - What are some of the ways that a soulish person may rebel against God?
+    - How can a person know if their prayers are from the Holy Spirit or not?
+    - How can our words have a powerful impact, for good or evil?
+    - How can we know what to pray for and how to pray for it?
+    - What are some of the signs that there may be a curse working in your life?
+    - What is the cause of most curses?
+    - How can you be sure if you are under a curse?
+    - How can you break a curse?
+    - What is the difference between prosperity and poverty?
+    - Can curses be passed down from generation to generation?
+    - What is the foundation for our release from curses?
+    - What did the divine exchange accomplished on the cross?
+    - What are the two alternatives for our sin?
+    - What is the outcome of sin?
+    - How can we receive the righteousness of God?
+    - What did Jesus become for us on the cross?
+    - What does Paul say about the curse of the law in Galatians 3:13-14?
+    - What do we have to do to get deliverance from curses working in our lives?
+    - What is the main event that the message of the Gospel revolves around?
+    - What did Jesus endure on the cross in our place?
+    - What did God offer to us in exchange for what Jesus accomplished on the cross?
+    - How can we never earn the righteousness that Jesus offers us?
+    - What is the final outcome of sin?
+    - What two wounds does our iniquity bring upon us?
+    - How was execution on a cross the most shameful and degrading of all forms of death?
+    - What must our freedom and blessing be based on?
+    - In order to live in the blessing that Jesus offers us, what must we first be delivered from?
+    - What is the legal base that God has already provided for us?
+    - What are the two essential conditions for receiving the benefits of Christ’s sacrifice?
+    - What does the word "confess" mean in the context of Biblical faith?
+    - What is the personal responsibility that we must accept for our rebellious attitude toward God and the sins that have resulted from that attitude?
+    - How can we receive forgiveness of all sins?
+    - How can we make sure that we are no longer linked to any occult or satanic practices?
+    - How do you confess your faith in Christ?
+    - What does it mean to repent?
+    - How do you receive forgiveness for your sins?
+    - What is the importance of forgiving others?
+    - Why should you renounce all contact with the occult?
+    - How do you pray for release from a curse?
+    - How do you believe that you have received and go on in God’s blessing?
+    - What is the first step to take in order to release yourself from a curse?
+    - How do you confess your faith in Christ?
+    - How do you repent of your rebellion and sin?
+    - How do you receive forgiveness of your sins?
+    - How do you forgive other people who have harmed you?
+    - How do you renounce all contact with the occult and/or satanic practices?
+    - How do you pray the prayer of release from a curse?
+    - What are the three things that the promised blessing is not?
+    - What is the role of the Holy Spirit in being led by the Spirit?
+    - What is the importance of confession in our relationship with the Lord?
+    - What is the difference between confession and proclamation?
+    - What is the declaration that Ruth and Derek Prince make every night?
+    - What are the three facts Paul points out concerning the promised blessing?
+    - How must we respond to the Holy Spirit's guidance?
+    - In every situation we encounter, what should we do?
+    - What does proclamation mean?
+    - What are the three facts Paul points out concerning the promised blessing?
+    - What does it mean to be “led by the Holy Spirit”?
+    - How can we respond to the Holy Spirit’s guidance?
+    - What is the difference between confession and proclamation?
+    - What does the declaration of God's protection do for the person who speaks it?
+    - Who is the declaration of God's protection for?
+    - What do we need to do to receive the declaration of God's protection?
+    - What are the benefits of the declaration of God's protection?
+    - What do you need to do to receive the declaration of God's protection?
+    - How does the declaration of God's protection work?
+    - What is Derek Prince's gift?
+    - What was Derek Prince's profession before he became a full-time Bible teacher?
+    - When did Derek Prince have his "life-changing encounter with Jesus Christ"?
+    - What are some of the languages Derek Prince studied?
+    - What is the focus of Derek Prince Ministries?
+    - What is Derek Prince's main gift?
+    - Who was Derek Prince? 
+    - What is Derek Prince Ministries?
+    - What is the Derek Prince teaching method?
+    - What are some of the topics Derek Prince teaches about?
+    - How can I learn more about Derek Prince?
+    - What is Derek Prince's gift?
+    - What is Derek Prince's teaching approach?
+    - What is Derek Prince's ministry?
+    - Who was Derek Prince?
+    - What did Derek Prince do?
+    - What was Derek Prince's gift?
+    - What did Derek Prince believe?
+    - What did Derek Prince's encounter with Jesus Christ mean for him?
+    - What did Derek Prince devote his life to?
+    - What is Derek Prince's legacy?
+    - What is "From Curse to Blessing" about?
+    - How can this book help me overcome generational curses?
+    - Is this book based on biblical teachings?
+    - Who is Derek Prince and what qualifications does he have to write on this topic?
+    - Are there any prerequisites to reading this book?
+    - Is "From Curse to Blessing" suitable for group study or is it meant for individual use only?
+    - Are there any workbooks or study guides to accompany this book?
+    - How long does it take to read "From Curse to Blessing"?
+    - Where can I purchase "From Curse to Blessing" and in what formats is it available?
+    - Are there any discounts or promotions currently available for "From Curse to Blessing"?
+    - What if I have further questions about the content of "From Curse to Blessing" after reading it?
+    - Does "From Curse to Blessing" address any other topics besides generational curses?
+    - Is there a sequel or follow-up book to "From Curse to Blessing"?
+    - How has "From Curse to Blessing" impacted other readers?
+    - Who is the target audience for "From Curse to Blessing"?
+    - What are the main topics covered in "From Curse to Blessing"?
+    - What makes "From Curse to Blessing" unique compared to other books on the same topic?
+    - How can I purchase a copy of "From Curse to Blessing"?
+    - Is "From Curse to Blessing" available in other formats besides print?
+    - Can I find study materials or discussion questions to go along with "From Curse to Blessing"?
+    - Can I get a signed copy of "From Curse to Blessing"?
+    - How do I purchase an ebook?
+    - What file format do you offer for your ebooks?
+    - Can I read your ebooks on my Kindle device?
+    - How many times can I download the ebook I purchased?
+    - Do you offer a refund for ebooks?
+    - Can I print the ebook I purchased?
+    - Is there a limit to how many devices I can read my ebook on?
+    - Can I gift an ebook to someone else?
+    - How can I find new ebook releases?
+    - Do you offer discounts or promotions on ebooks?
+    - How do I know if an ebook is compatible with my device?
+    - How can I access Derek Prince Ministries' resources?
+    - How can I join Derek Prince Ministries' prayer team?
+    - Does Derek Prince Ministries offer counseling services?
+    - How can I support Derek Prince Ministries financially?
+    - How can I stay updated on Derek Prince Ministries' activities and events?
+    - Can I get a physical copy of a Bible teaching from Derek Prince Ministries?
+    - How can I make a donation to support the ministry?
+    - How can I access the free resources offered by Derek Prince Ministries?
+    - Can I request prayer from Derek Prince Ministries?
+    - How can I connect with other believers through Derek Prince Ministries?
+    - Does Derek Prince Ministries have a physical location where I can attend services?
+    - How can I contact Derek Prince Ministries for additional support?
+    - How can I donate to Derek Prince Ministries?
+    - What is the mission of Derek Prince Ministries?
+    - How can I volunteer for Derek Prince Ministries?
+    - How can I access Derek Prince's teachings?
+    - Are there any events or conferences coming up that Derek Prince Ministries is hosting or involved in?
+    - How can I contact someone at Derek Prince Ministries?
+    - What resources does Derek Prince Ministries offer for personal Bible study?
+    - How can I partner with Derek Prince Ministries in its mission and work?
+    - What types of outreach and ministry programs does Derek Prince Ministries support?
+    - How does Derek Prince Ministries use the funds that are donated to the ministry?
+    - How do I donate to Derek Prince Ministries?
+    - How can I access Derek Prince's teachings?
+    - Can I get involved with Derek Prince Ministries as a volunteer?
+    - How do I request prayer from Derek Prince Ministries?
+    - How can I find out about upcoming events or conferences hosted by Derek Prince Ministries?
+    - Can I receive Derek Prince's teachings in my language?
+    - ow do I become a partner with Derek Prince Ministries?
+    - Can I get a refund for a purchase I made on the Derek Prince Ministries website?
+    - Can I download Derek Prince's teachings?
+    - How can I contact customer support for Derek Prince Ministries?
+    - ow can I purchase a Derek Prince book?
+    - Can I purchase Derek Prince books in bulk?
+    - Do you offer international shipping for Derek Prince books?
+    - What if I receive a damaged or defective book?
+    - How can I get in touch with Derek Prince Ministries customer service?
+    - Can I request a specific Derek Prince book that is not currently available on your website?
+    - Do you offer discounts or promotions on Derek Prince books?
+    - Can I download an e-book version of a Derek Prince book?
+    - How can I get help with my order?
+    - What payment methods are accepted?
+    - What is the shipping policy for Derek Prince's books?
+    - How can I contact Derek Prince Ministries with other inquiries?
+    - Can I purchase digital versions of Derek Prince's books?
+    - Are there discounts available for bulk orders?
+    - What should I do if I have a problem with my order or book?
+    - Are there any free resources available related to Derek Prince's teachings?
+    - What is your return policy for Derek Prince's books?
+    - Can I exchange a Derek Prince book for a different title?
+    - Do you offer bulk discounts for Derek Prince's books?
+    - How can I find out about new Derek Prince book releases?
+    - Are there any discounts or promotions currently available for Derek Prince's books?
+    - Can I get an electronic version of a Derek Prince book?
+    - How can I contact customer support for Derek Prince's books?
+    - Do you offer international shipping for Derek Prince's books?
+    - What should I do if my Derek Prince book arrives damaged or defective?
+    - How can I leave a review of a Derek Prince book?
+    - Can I request a specific Derek Prince book that is not currently available?
+    - Are there any study guides or companion materials available for Derek Prince's books?
+    - What payment methods are accepted for Derek Prince's books?
+    - How can I track the status of my Derek Prince book order?
+    - Please give me a summary about From Curse to Blessing of Derek Prince's book.
+    - Please give me a list of Derek Prince's books organized by category.
+    - Do you have any DVD/CD/Proclamation Cards/MP3 ?

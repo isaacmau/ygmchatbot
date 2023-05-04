@@ -1,0 +1,19 @@
+<head>
+    <link rel="stylesheet" href="Chatroom.css" />
+  </head>
+  <body>
+    <div class="chat-container"></div>
+  
+    <script src="Chatroom.js"/></script>
+    <script type="text/javascript">
+    var chatroom = window.Chatroom({
+      host: "http://localhost:5005",
+      title: "Chat with ygm",
+      container: document.querySelector(".chat-container"),
+      welcomeMessage: "Hi, I am ygm. How may I help you?",
+      speechRecognition: "en-US",
+      voiceLang: "en-US"
+    });
+    chatroom.openChat();
+  </script>
+  </body>

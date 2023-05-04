@@ -1,0 +1,61 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - chitchat
+  - question
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by YGM."
+
+  utter_chitchat/ask_DPM:
+  - text: Derek Prince Ministries is a non-profit organization that focuses on Bible teaching and discipleship. The organization is dedicated to making the Bible accessible to people around the world through various resources and materials.
+
+  utter_chitchat/ask_DPM_contact:
+  - text: You can contact Derek Prince Ministries through various channels, including phone, email, and social media. The organization's website also has a contact form where you can send your queries. The organization's website is www.derekprince.org.
+
+  utter_chitchat/ask_DPM_involved:
+  - text: There are various ways to get involved with Derek Prince Ministries, including volunteering, donating, and attending events. You can visit the organization's website for more information on how to get involved.
+
+  utter_chitchat/ask_Blessing:
+  - text: The source of blessings is God. As we see in the Bible, blessings are often given in response to obedience to God's voice. 
+
+  utter_chitchat/ask_Purchase:
+  - text: You can purchase Derek Prince books on our website www.derekprince.org or through various online retailers such as Amazon and Barnes & Noble.
+
+  utter_please_rephrase:
+  - text: Sorry, As an natural language processing chatbot, I am a computer program designed to provide information based on Derek Prince bible teaching of topics.
+
+  utter_out_of_scope:
+  - text: Sorry, I can't handle that request. I am a computer program designed to provide information based on Derek Prince bible teaching of topics.
+
+actions:
+  - action_get_answer
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

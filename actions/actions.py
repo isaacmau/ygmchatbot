@@ -62,7 +62,7 @@ import operator
 class GetAnswer(Action):
      def __init__(self):
      #轉檔
-         self.faq_d = pd.read_csv('./FAQ.csv')
+         self.faq_d = pd.read_csv('FAQ.csv')
          qss = list(self.faq_d['question'])
          with open("./data/ygm.yml", "wt", encoding="utf-8") as f:
              f.write('version: "3.1"\n')

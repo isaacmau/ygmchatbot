@@ -64,11 +64,11 @@ class GetAnswer(Action):
      #轉檔
          self.faq_d = pd.read_csv('./actions/FAQ.csv')
          qss = list(self.faq_d['question'])
-         #with open("data/ygm.yml", "wt", encoding="utf-8") as f:
-             #f.write('version: "3.1"\n')
-             #f.write("nlu: \n- intent: question\n  examples: | \n")
-             #for q in qss:
-                # f.write(f"    - {q}\n") 
+         with open("app/data/ygm.yml", "wt", encoding="utf-8") as f:
+             f.write('version: "3.1"\n')
+             f.write("nlu: \n- intent: question\n  examples: | \n")
+             for q in qss:
+                 f.write(f"    - {q}\n") 
         
         
      def name(self) -> Text:

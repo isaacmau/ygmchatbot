@@ -1,14 +1,14 @@
 version: '3.5.6'
 services:
   rasa:
-    image: rasa-server-okteto:latest
+    image: rasa/rasa
     working_dir: "/app"
     build: "./"
     volumes:
     - ./data:/app/data
     - ./actions:/app/actions
     - ./tests:/app/tests
-    command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\""
+    command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\"" -p 5005
     ports:
     - '5006:5005'
     public: true
@@ -16,10 +16,11 @@ services:
     - all
 
   rasa-actions:
-    image: rasa-server-okteto:latest
+    image: rasa/rasa
     working_dir: "/app"
     build: "./"
     volumes:
+    - ./data:/app/data
     - ./actions:/app/actions
     command: bash -c "rasa run actions"
     ports:

@@ -1,6 +1,6 @@
 name: okteto-rasa-mdbot
 autocreate: true
-image: okteto.dev/rasa-server-okteto:latest
+image: rasa/rasa
 command: bash
 volumes:
 - /root/.cache/pip

@@ -62,7 +62,7 @@ import operator
 class GetAnswer(Action):
      def __init__(self):
      #轉檔
-         self.faq_d = pd.read_csv('FAQ.csv')
+         self.faq_d = pd.read_csv('./actions/FAQ.csv')
          qss = list(self.faq_d['question'])
          with open("./data/ygm.yml", "wt", encoding="utf-8") as f:
              f.write('version: "3.1"\n')
@@ -78,7 +78,7 @@ class GetAnswer(Action):
              tracker: Tracker,
              domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
     
-            csvfile = open(r"FAQ.csv",encoding='utf-8')
+            csvfile = open(r"./actions/FAQ.csv",encoding='utf-8')
             reader = csv.reader(csvfile)
             #question
             question = tracker.latest_message['text'] 
